@@ -23,7 +23,7 @@ public class Simplewindow extends JFrame
         JLabel label = new JLabel
         ("Justus Poole - You can display text using a label.");
         contentPane.add(label);
-        contentPane.setBackground(Color.GREEN);
+        contentPane.setBackground(Color.CYAN);
         addWindowListener(new Windowdestroyer());
     }
     public static void main(String[] args)
