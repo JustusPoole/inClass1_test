@@ -21,7 +21,7 @@ public class Simplewindow extends JFrame
         setSize(WIDTH,HEIGHT);
         Container contentPane = getContentPane();
         JLabel label = new JLabel
-        ("You can display text using a label.");
+        ("Justus Poole - You can display text using a label.");
         contentPane.add(label);
         contentPane.setBackground(Color.GREEN);
         addWindowListener(new Windowdestroyer());
